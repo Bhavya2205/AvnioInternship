@@ -1,18 +1,51 @@
-# Salesforce DX Project: Next Steps
+# Avino Internship
+CONTENTS OF THIS FILE
+<ul>
+<li>Introduction to the Salesforce Platform</li>
+<li>Introduction to the Recruiting App</li>
+</ul>
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+**Introduction about the Platform**
 
-## How Do You Plan to Deploy Your Changes?
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+Salesforce is a Custom Relationship Management (CRM) platform. It is a cloud based technology. Being cloud based, it allows users to access the platform from anywhere in the world all they need is connection to the Internet. It is efficient as it has multi-tenency functionality. It helps the companies to connect with customers more efficiently. Companies can collect all the requirements from the customers and build the app accordingly with maximum functioality.
 
-## Configure Your Salesforce DX Project
+**Description about Objects and Fields**
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+**Objects**
 
-## Read All About It
+Objects in salesfroce can be seen as table in databases. It tells what part of information will it be containing.
+There are two types of objects in Salesforce:
+1) Standard Objects - They are built in and comes with the platform. Eg: Account, Opportunities, Leads, etc.
+2) Custom Objects - Users of Salesforce build these according to requirements.
+                    Steps:
+                         Setup -> Object Manager -> Create new Custom Obejcts
+                         
+**Fields**
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+Fields are contained in an obejct. Fields are of specific data type which ensures which data can be stored in the fields.
+There are two types of fields in Salesfoece:
+1) Standard Fields - These are the fields which can not be deleted and exist by default in the Object. Eg: Last modified by, Created By, etc
+2) Custom Fields - These fields are created according to the requirements.
+                   Steps:
+                       Setup -> Object Manager -> Choose the Object in which field is to be created -> New Filds and Relationships -> New Field -> Choose data type -> Next ->                           Fill in the details
+
+**Introduction to the App**
+
+
+In the given project, a **Recruiting App** is built with various functionalities. 
+
+In every company we need employees to complete tasks. But how do we find the perfect employee to hit the spot just right. Here, comes the role of the recruiting app. The app will make the hiring process simple.
+
+The app will let the company to list down the open positions with which the candidates can relate while applying for the job. The company can also assign particular interviewers to the candidates. This will help the company track about the candidates and their interviewers. 
+
+Interviewers can mark candidates based on the skills, experiece and core competencies and also if they dinf the candidate fit for the position interviewers can recommnd the candidate for the job. This will help company to take decisions easily about the candidates. 
+
+The candidates can fill in their details and relate their details with the various positions.
+
+In the app, there is an option of chatter where recruiters can give daily updates about the interviews and candidates.
+
+The app also helps to keep track of the positions, company can maintain the status of the position.
+
+This app takes the recruiting process to whole another level, making it so much easier to be up-to-date about the process and handle positions and applicatios easily. 
+
