@@ -18,8 +18,10 @@ Objects in salesfroce can be seen as table in databases. It tells what part of i
 There are two types of objects in Salesforce:
 1) Standard Objects - They are built in and comes with the platform. Eg: Account, Opportunities, Leads, etc.
 2) Custom Objects - Users of Salesforce build these according to requirements.
-                    Steps:
-                         Setup -> Object Manager -> Create new Custom Obejcts
+                      
+                   Steps:
+                                         
+                   Setup -> Object Manager -> Create new Custom Obejcts
                          
 **Fields**
 
@@ -27,8 +29,10 @@ Fields are contained in an obejct. Fields are of specific data type which ensure
 There are two types of fields in Salesfoece:
 1) Standard Fields - These are the fields which can not be deleted and exist by default in the Object. Eg: Last modified by, Created By, etc
 2) Custom Fields - These fields are created according to the requirements.
+                   
                    Steps:
-                       Setup -> Object Manager -> Choose the Object in which field is to be created -> New Filds and Relationships -> New Field -> Choose data type -> Next ->                           Fill in the details
+                   
+                   Setup -> Object Manager -> Choose the Object in which field is to be created -> New Filds and Relationships -> New Field -> Choose data type -> Next -> Fill in the details
 
 **Introduction to the App**
 
